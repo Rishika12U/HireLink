@@ -3,7 +3,7 @@ import axios from "axios";
 const API = axios.create({
   baseURL: import.meta.env.MODE === "development"
     ? "http://localhost:5000/api"
-    : "https://hirelinkbackend.onrender.com",
+    : "https://hirelinkbackend.onrender.com/api",
   withCredentials: true,
 });
 
