@@ -1,0 +1,22 @@
+# Node modules
+Backend/node_modules/
+Frontend/node_modules/
+
+# Build output (Vite)
+Frontend/dist/
+
+# Environment variables
+Backend/.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE settings (optional)
+.vscode/
+.idea/
